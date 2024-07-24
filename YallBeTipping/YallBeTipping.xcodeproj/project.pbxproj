@@ -19,6 +19,7 @@
 		F6B043EC2C51B3A700FD04F1 /* TipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B043EB2C51B3A700FD04F1 /* TipVC.swift */; };
 		F6B043EE2C51B3B000FD04F1 /* TipVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B043ED2C51B3B000FD04F1 /* TipVC.storyboard */; };
 		F6B043F02C51B3C100FD04F1 /* RecieptVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B043EF2C51B3C100FD04F1 /* RecieptVC.storyboard */; };
+		F6B043F32C51BBEF00FD04F1 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B043F22C51BBEF00FD04F1 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F6B043EB2C51B3A700FD04F1 /* TipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipVC.swift; sourceTree = "<group>"; };
 		F6B043ED2C51B3B000FD04F1 /* TipVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TipVC.storyboard; sourceTree = "<group>"; };
 		F6B043EF2C51B3C100FD04F1 /* RecieptVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecieptVC.storyboard; sourceTree = "<group>"; };
+		F6B043F22C51BBEF00FD04F1 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				F6B043D52C51B19800FD04F1 /* LaunchScreen.storyboard */,
 				F6B043CA2C51B19700FD04F1 /* AppDelegate.swift */,
 				F6B043CC2C51B19700FD04F1 /* SceneDelegate.swift */,
+				F6B043F12C51BBD200FD04F1 /* Model */,
 				F6B043DE2C51B1BD00FD04F1 /* Home */,
 				F6B043DF2C51B1CC00FD04F1 /* Confirm */,
 				F6B043E02C51B1D400FD04F1 /* Tip */,
@@ -115,6 +118,14 @@
 				F6B043EF2C51B3C100FD04F1 /* RecieptVC.storyboard */,
 			);
 			path = Receipt;
+			sourceTree = "<group>";
+		};
+		F6B043F12C51BBD200FD04F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6B043F22C51BBEF00FD04F1 /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B043F32C51BBEF00FD04F1 /* MenuItem.swift in Sources */,
 				F6B043CF2C51B19700FD04F1 /* HomeVC.swift in Sources */,
 				F6B043E62C51B36E00FD04F1 /* ConfirmVC.swift in Sources */,
 				F6B043EA2C51B39500FD04F1 /* RecieptVC.swift in Sources */,
