@@ -21,14 +21,28 @@ class HomeVC: UIViewController {
     func fetchData(){
         data = Api.shared.fetchData()
     }
+    
+    func setupTableView(){
+        tableView.dataSource = self
+        tableView.delegate = self
+    }
 }
 
-extension HomeVC: UITableViewDataSource, UITableViewDelegate {
+extension HomeVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableCell", for: indexPath) as! HomeTableCell
+        
+        let i:Int = indexPath.row
+        let item = data[i]
+        cell.configure(item: item)
+        return cell
     }
+}
+
+extension HomeVC: UITableViewDelegate {
+    
 }
