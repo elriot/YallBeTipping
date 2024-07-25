@@ -16,13 +16,15 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchData()
+        setupTableView()
     }
     
     func fetchData(){
+        print("fetchData")
         data = Api.shared.fetchData()
     }
     
-    func setupTableView(){
+    private func setupTableView() {
         tableView.dataSource = self
         tableView.delegate = self
     }
@@ -33,11 +35,11 @@ extension HomeVC: UITableViewDataSource {
         return data.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableCell", for: indexPath) as! HomeTableCell
         
-        let i:Int = indexPath.row
-        let item = data[i]
+        let item = data[indexPath.row]
         cell.configure(item: item)
         return cell
     }
