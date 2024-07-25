@@ -10,6 +10,6 @@ import Foundation
 struct MenuItem {
     let name: String
     let price: Double
-    let image: String
+    let img: String
     var count: Int = 0
 }

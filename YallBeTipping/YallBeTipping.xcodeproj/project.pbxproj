@@ -20,6 +20,8 @@
 		F6B043EE2C51B3B000FD04F1 /* TipVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B043ED2C51B3B000FD04F1 /* TipVC.storyboard */; };
 		F6B043F02C51B3C100FD04F1 /* RecieptVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B043EF2C51B3C100FD04F1 /* RecieptVC.storyboard */; };
 		F6B043F32C51BBEF00FD04F1 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B043F22C51BBEF00FD04F1 /* MenuItem.swift */; };
+		F6B043F52C51BE0800FD04F1 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B043F42C51BE0800FD04F1 /* Api.swift */; };
+		F6B043F72C51EB4700FD04F1 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B043F62C51EB4700FD04F1 /* HomeTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F6B043ED2C51B3B000FD04F1 /* TipVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TipVC.storyboard; sourceTree = "<group>"; };
 		F6B043EF2C51B3C100FD04F1 /* RecieptVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecieptVC.storyboard; sourceTree = "<group>"; };
 		F6B043F22C51BBEF00FD04F1 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F6B043F42C51BE0800FD04F1 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		F6B043F62C51EB4700FD04F1 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 				F6B043D52C51B19800FD04F1 /* LaunchScreen.storyboard */,
 				F6B043CA2C51B19700FD04F1 /* AppDelegate.swift */,
 				F6B043CC2C51B19700FD04F1 /* SceneDelegate.swift */,
+				F6B043F42C51BE0800FD04F1 /* Api.swift */,
 				F6B043F12C51BBD200FD04F1 /* Model */,
 				F6B043DE2C51B1BD00FD04F1 /* Home */,
 				F6B043DF2C51B1CC00FD04F1 /* Confirm */,
@@ -89,6 +94,7 @@
 			children = (
 				F6B043CE2C51B19700FD04F1 /* HomeVC.swift */,
 				F6B043D02C51B19700FD04F1 /* Main.storyboard */,
+				F6B043F62C51EB4700FD04F1 /* HomeTableCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 				F6B043EA2C51B39500FD04F1 /* RecieptVC.swift in Sources */,
 				F6B043CB2C51B19700FD04F1 /* AppDelegate.swift in Sources */,
 				F6B043EC2C51B3A700FD04F1 /* TipVC.swift in Sources */,
+				F6B043F52C51BE0800FD04F1 /* Api.swift in Sources */,
 				F6B043CD2C51B19700FD04F1 /* SceneDelegate.swift in Sources */,
+				F6B043F72C51EB4700FD04F1 /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
